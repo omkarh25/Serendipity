@@ -1,0 +1,17 @@
+Run Order:
+
+I. Morning Order:
+acc_token_gen -- autoqty -- dailyTeleSummary -- dailyExcelEntry -- watchdogclient_json.py
+
+II. Closing Order:
+EODTelereport -- ExcelSignalLog -- EODExcelLog -- LogMove 
+
+III. After Expiry:
+1. Amibroker symbols change
+2. Amibroker Param change
+3. Change expiry date in order_mod ln 66
+
+IV. Weekly (Monday morning):
+weeklySummary
+
+
