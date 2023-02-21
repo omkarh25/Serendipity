@@ -50,11 +50,16 @@ class CryptoJsAES:
 
 BASE_URL="https://ant.aliceblueonline.com/rest/AliceBlueAPIService"
 
-userId = "AB068818"
-password = "K@nnada111"
-twofa = 1995
-totp_encrypt_key="HTPUNQQVIOBDJAPSMRYSRHTEYDWGAZWA"
+userId = "KH364"
+password = "K@nnada222"
+twofa = 1990
+totp_encrypt_key="FRKWJNNSORKSHQMIDMVBKKEFDKMPJGNM"
 totp = pyotp.TOTP(totp_encrypt_key)
+
+AB = "HTPUNQQVIOBDJAPSMRYSRHTEYDWGAZWA"
+BY1424 = "JCOLSSUDFUCTMVKBLNZMCIBTUQSZLNEZ"  #Totp key
+KH364 = "FRKWJNNSORKSHQMIDMVBKKEFDKMPJGNM"
+HV = "SXHHDMKDCNPQUQPQMJQETIDJKUUYGFAZ"
 
 def getEncryptionKey():
 
@@ -129,6 +134,6 @@ def verifyTotp(twofa):
 verifyTotp(twof)
 
 
-from pya3 import *
-alice = Aliceblue(user_id='AB068818',api_key='CBomUKElkhSmqOOIxSxeSMy49fANnfHmb5O85jkx9yTn6HhsPLlNBILrqqRQsrbaLTzK0MMFUHqOOOo2Ec5GllsLA3jdhkqHsjiEm0NqGFv7uRArn7r2gY5523Ur7M0y')
-print(alice.get_session_id()) # Get Session ID
+# from pya3 import *
+# alice = Aliceblue(user_id='AB068818',api_key='CBomUKElkhSmqOOIxSxeSMy49fANnfHmb5O85jkx9yTn6HhsPLlNBILrqqRQsrbaLTzK0MMFUHqOOOo2Ec5GllsLA3jdhkqHsjiEm0NqGFv7uRArn7r2gY5523Ur7M0y')
+# print(alice.get_session_id()) # Get Session ID
