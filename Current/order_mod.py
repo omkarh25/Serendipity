@@ -56,8 +56,8 @@ for i in range(len(acc_json)):
 str_prc_default = 11500.0 # Don't forget to add .0 for Alice Blue NIFTY Symbols # .0 to be removed for monthly expiry
 
 exp_yr = 2023
-exp_mnth = 2     # for monthly series expiry, don't change to 0   
-exp_date = 9       # Use single digit for dates before 10th of a month / monthly expiry use expiry date 
+exp_mnth = 3     # for monthly series expiry, don't change to 0   
+exp_date = 29       # Use single digit for dates before 10th of a month / monthly expiry use expiry date 
 
 expiry = f"{exp_yr}-{exp_mnth}-{exp_date}"
 

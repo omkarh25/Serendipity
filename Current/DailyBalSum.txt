@@ -1,6 +1,6 @@
-KHclosingBal:363468.78
-BYclosingBal:2006819.48
-HVclosingBal:103245.34
-KHopeningBal:361170.21
-BYopeningBal:2059522.76
-HVopeningBal:105093.97
+KHclosingBal:233771.85
+BYclosingBal:1791228.14
+HVclosingBal:90834.24
+KHopeningBal:233252.52
+BYopeningBal:1850267.99
+HVopeningBal:93004.81

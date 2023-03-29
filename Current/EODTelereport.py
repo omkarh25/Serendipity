@@ -27,7 +27,6 @@ def accPnl():
         summary = acc_json[i]["alice_obj"].get_daywise_positions()
         for i in range(len(summary)):
             PnL = summary[i]['MtoM']
-            print(PnL)
             bal.append(PnL)
             acc_names.append(acc_name)
 
@@ -102,7 +101,7 @@ for i in range(len(acc_json)):
     eod = sum([int(float(i.replace(',',''))) for i in PnL_dict[acc_name]])
     PnL = format_currency(eod, 'INR', locale='en_IN')
     total.append(PnL)
-    f.write(acc_name+"PnL:" + str(eod) + '\n')
+    f.write("KHPnL:0" + '\n' + acc_name+"PnL:" + str(eod) + '\n')
 
 f.close()
 
